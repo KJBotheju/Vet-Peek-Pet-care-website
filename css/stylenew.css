@@ -1,0 +1,261 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,100;1,400&display=swap');
+
+
+
+*{
+margin: 0;
+padding: 0;
+font-family:"poppins",sana-serif;
+box-sizing: border-box;
+
+}
+
+
+
+body{
+    background-image: url(wolf_predator_howl_134450_300x168.jpg);
+    position: relative;
+    background-size: cover;
+   
+
+ 
+    
+}
+
+
+
+ 
+
+/* informatoin decoration*/
+.contact-section{
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+
+/*animation*/
+animation: anim 0.75s ease-in forwards;
+
+}
+
+
+
+
+
+
+/*loading*/
+
+
+@keyframes anim{
+
+from {
+opacity:0;
+
+}
+to 
+{
+  opacity: 1;  
+}
+}
+
+.contact-info
+{
+box-sizing: border-box;
+color:rgb(0,0,0);
+max-width:500px; 
+line-height: 65px;
+padding-left: 50px;
+font-size: 20px;
+font-weight: bold;
+}
+.i{
+
+margin-right: 20PX;
+font-size: 25PX;
+
+}
+
+.contact-form{
+
+max-width: 700px;
+margin-right: 50px;
+
+}
+.contact-info
+{
+
+flex: 1;
+}
+.contact-form{
+    flex: 1;
+}
+h2{
+
+color: magenta;
+text-align: left;
+font-size: 35px;
+text-transform: uppercase;
+margin-bottom: 30px;
+padding: 20px;
+
+}
+
+
+.text-box
+{
+
+background-color:rgb(230, 216, 216);
+color:#000;
+border: none;
+width: calc(50%-10px);
+height: 50px;
+padding: 12px;
+font-size: 15px;
+border-radius: 5px;
+ box-shadow:0 1px 1px  rgb(0,0, 0,0.1);
+margin-bottom: 20px;
+opacity: 0.9;
+
+
+
+
+}
+.text-box:first-child
+{
+
+    margin-right: 15px;
+}
+
+
+
+ .contact-form textarea 
+{
+
+background: rgb(230, 216, 216);
+color: #000;
+border: none;
+width: 100%;
+padding:12px;
+font-size: 15px;
+min-height: 200px;
+max-height: 400px;
+resize: vertical;
+border-radius: 5px;
+box-shadow: 0 1px 1px rgba(0,0,0, 0.1);
+margin-bottom: 20px;
+opacity: 0.9;
+}
+
+.send-btn
+{
+
+float: right;
+background: rgb(230, 216, 216);
+color: #000;
+border: none;
+width: 120px;
+height: 40px;
+font-size: 15px;
+font-weight: 600;
+text-transform: uppercase;
+letter-spacing: 2px;
+cursor: pointer;
+border-radius: 5px;
+transition: 0.3s;
+transition-property:all;}
+
+
+.send-btn:hover
+{
+
+    background:rgb(184, 153, 153);
+}
+
+
+@media screen and (max-width:950px){
+
+
+.contact-section{
+
+    flex-direction: column;
+    
+}
+.contact-info,.contact-form{
+
+
+margin: 30px 50px;
+
+}
+
+ .contact-form h2{
+
+
+    font-size: 30px;
+}
+
+.contact-form.text-box{
+
+
+
+    width: 100%;
+
+
+
+
+}}
+
+.alert-success{
+
+z-index: 1;
+background: #d4edda;
+font-size: 18px;
+padding: 20px 40px;
+min-width:420px;
+position: fixed;
+right: 0;
+top: 10px;
+border-left: 8px solid #3ad66e;
+border-radius: 4px;
+}
+.alert-error{
+
+
+    z-index: 1;
+    background: #d4edda;
+    font-size: 18px;
+    padding: 20px 40px;
+    min-width: 420px;
+    position: fixed;
+    right: 0;
+    top: 10px;
+    border-left: 0px solid #3ad66e;
+    border-radius :4px;
+
+}
+
+
+
+
+
+
+
+@media screen and (max-width:700px){
+    div.contact-in iframe{
+        width: 600px;
+        height: 350px;
+    }
+}
+
+  
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,322 @@
+/*-- Reset --*/
+html, body {
+  overflow-x: hidden;
+  height: 100%;
+  width: 100%;
+  font-family: 'Roboto', sans-serif;
+  font-size: large;
+}
+
+/*============= NAVIGATION =============*/
+.navbar-brand img{
+   height: auto;
+}
+
+.navbar {
+  background: linear-gradient(to right, #f2f2f2, #FBFBFB);
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  box-shadow: 0 .5rem .5rem rgba(0, 0, 0, 0.2);
+}
+
+.nav-item{
+  padding: 0.4rem;
+}
+
+nav-link{
+  color: black !important;
+}
+
+.nav-link.active, .nav-link :hover{
+   color: dodgerblue !important;
+}
+
+/*============= CAROUSEL =============*/
+.carousel-inner{
+  max-height: 40rem!important;
+}
+
+
+/*---Change Carousel Transition Speed --*/
+.carousel-item-next,.carousel-item-prev,.carousel-item.active{
+  transition: transform 2s ease;
+}
+
+.carousel-indicator li{
+  width: 40px;
+  height: 6px;
+  margin-left: 4px;
+  margin-right: 4px;
+}
+
+/*-- Carousel Content --*/
+
+
+/*============= SOCIAL MEDIA STICKY BAR =============*/
+
+.jumbotron {
+  background: linear-gradient(to right, #f2f2f2, #FBFBFB);
+  padding: 1rem 0 .5rem;
+  margin-bottom: 0;
+  border-radius: 0;
+  box-shadow: 0 .5rem .5rem rgba(0, 0, 0, 0.1);
+}
+
+ul.social{
+  list-style-type: none;
+  display: flex;
+  padding: 0;
+  margin: 0 auto;
+}
+
+ul.social ,li{
+  margin: 0 auto;
+}
+
+.jumbotron ,.svg-inline--fa{
+  font-size: 2rem;
+  margin: 0 1rem;
+}
+
+.jumbotron ,.svg-inline--fa:hover{
+  color: gray!important;
+}
+
+/*============= COLUMN CONTENT =============*/
+div.font-size{
+  font-size: 130%;
+}
+
+
+/*===== FIXED BACKGROUND IMG =====*/
+
+.fixed-background {
+  padding: 12rem 0;
+  border-top: .05rem solid black;
+  border-bottom: .05rem solid black;
+  margin-bottom: 2px;
+  height: 100vh; /*-- remove --*/
+  overflow: hidden;
+}
+.fixed {
+  background-image: url('../img/imac.jpg');
+  position: fixed;
+}
+
+
+/*============= FOOTER =============*/
+footer{
+  background-color: #383838;
+  padding: 1rem 2rem 3rem;
+}
+
+footer a, .socket a{
+color: white ;
+text-decoration: none;
+}
+
+footer a:hover, .socket a:hover{
+  color: white ;
+  text-decoration: none;
+  }
+/*============= SOCKET =============*/
+
+.socket{
+  background-color: #222222;
+  border-top: 1px solid gray;
+}
+
+
+/*============= MEDIA QUERIES =============*/
+
+/* Devices under 1199px (xl) */
+@media (max-width: 1199.98px) {
+
+}
+/* Devices under 992px (xl) */
+@media (max-width: 991.98px) {
+
+}
+/* Devices under 768px (md) */
+@media (max-width: 767.98px) {
+
+}
+/* Devices under 576px (sm) */
+@media (max-width: 575.98px) {
+
+}
+
+
+/*============ BOOTSTRAP BREAK POINTS:
+
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+=============*/
+
+/*-- Bootstrap Mobile Gutter Fix --*/
+.row, .container-fluid {
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+}
+
+/*-- Fixed Background Image --*/
+.fixed-background {
+  position: relative;
+  width: 100%;
+  z-index: 1000!important;
+}
+.fixed-wrap {
+  clip: rect(0, auto, auto, 0);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -999 !important;
+}
+.fixed {
+  z-index: -999!important;
+  display: block;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center center;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  will-change: transform;
+}
+
+/********************************************AboutUs***********************************************************/
+#head1{
+  color: rgb(1, 100, 139);
+  text-align: center;
+  font-size: 200%;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  
+}
+
+.section1{
+  width: 600px;
+  font-size: 175%;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-align: center;
+  color: rgb(85, 32, 90);
+  position: relative;
+  left: 350px;;
+}
+
+.section2{
+  width: 800px;
+  text-align: center;
+  position: relative;
+  left: 250px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 125%;
+  color:rgb(94, 92, 92);
+
+}
+
+.sec3{
+  position: relative;
+  left: 200px;
+}
+
+.head2{
+  text-align: center;
+  font-family: sans-serif;
+  color: rgb(145, 33, 120);
+  font-size: 150%;
+}
+
+
+.sec4{
+  background-color: rgb(231, 185, 166);
+  width: 600px;
+  height: 450px;
+  float: left;
+  position: relative;
+  left: 100px;
+  font-size: 150%;
+  text-align: justify;
+  padding:30px;
+  margin: 30px;
+  position: relative;
+  left: 25px;
+}
+
+.sec5{
+  background-color: rgb(231, 185, 166);
+  width: 600px;
+  height: 450px;
+  float: left;
+  position: relative;
+  left: 100px;
+  font-size: 150%;
+  text-align: justify;
+  padding:30px;
+  margin: 30px;
+  position: relative;
+  left: 25px;
+}
+
+
+
+.shead{
+  text-align: center;
+  color: rgb(129, 26, 41);
+  font-size: 175%;
+}
+
+.para{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.thead{
+  clear: left;   
+  text-align: center;
+  font-size: 150%;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: rgb(255, 205, 172);
+}
+
+.im{
+  width: 300px;
+  height: 300px;
+  border-radius: 20%;
+}
+
+.tm{
+  float: left;
+  padding: 20px 60px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 120%;
+  list-style-type: none;
+  text-align: center;
+}
+
+.tmd{
+  color: rgb(90, 97, 104);
+}
+
+#tpos{
+  position: relative;
+  left: 40px;
+}
+
+/*****************************************************End_About_Us***************************************/
